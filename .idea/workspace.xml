@@ -1,12 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="aa11b343-eabe-4b9e-b375-d01bcf01862c" name="Default Changelist" comment="Created Order, Shopper and Merchant models with their respective migrations and test file.">
+    <list default="true" id="aa11b343-eabe-4b9e-b375-d01bcf01862c" name="Default Changelist" comment="[GREEN] Now we cant save a new merchant without name, email or cif">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/db/migrate/20210317121117_create_merchants.rb" beforeDir="false" afterPath="$PROJECT_DIR$/db/migrate/20210317121117_create_merchants.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/db/migrate/20210317124110_create_orders.rb" beforeDir="false" afterPath="$PROJECT_DIR$/db/migrate/20210317124110_create_orders.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/db/migrate/20210317124211_create_shoppers.rb" beforeDir="false" afterPath="$PROJECT_DIR$/db/migrate/20210317124211_create_shoppers.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/models/merchant_test.rb" beforeDir="false" afterPath="$PROJECT_DIR$/test/models/merchant_test.rb" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -229,7 +225,8 @@
       <workItem from="1615570848356" duration="499000" />
       <workItem from="1615843319295" duration="28000" />
       <workItem from="1615849523932" duration="2389000" />
-      <workItem from="1615902541304" duration="4489000" />
+      <workItem from="1615902541304" duration="4966000" />
+      <workItem from="1615993164907" duration="985000" />
     </task>
     <task id="LOCAL-00001" summary="Created Order, Shopper and Merchant models with their respective migrations and test file.">
       <created>1615985094459</created>
@@ -238,7 +235,28 @@
       <option name="project" value="LOCAL" />
       <updated>1615985094459</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Migrated merchants, shoppers and orders table.">
+      <created>1615989987521</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1615989987521</updated>
+    </task>
+    <task id="LOCAL-00003" summary="[RED] test that a new merchant shouldnt be saved without name, email and cif">
+      <created>1615990048227</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1615990048227</updated>
+    </task>
+    <task id="LOCAL-00004" summary="[GREEN] Now we cant save a new merchant without name, email or cif">
+      <created>1615990267601</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1615990267601</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -254,13 +272,17 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Created Order, Shopper and Merchant models with their respective migrations and test file." />
-    <option name="LAST_COMMIT_MESSAGE" value="Created Order, Shopper and Merchant models with their respective migrations and test file." />
+    <MESSAGE value="Migrated merchants, shoppers and orders table." />
+    <MESSAGE value="[RED] test that a new merchant shouldnt be saved without name, email and cif" />
+    <MESSAGE value="[GREEN] Now we cant save a new merchant without name, email or cif" />
+    <option name="LAST_COMMIT_MESSAGE" value="[GREEN] Now we cant save a new merchant without name, email or cif" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/sequra_baquend_challenge@test_should_not_save_mercha___.rcov" NAME="test_should_not_save_mercha... Coverage Results" MODIFIED="1615989849767" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="sequra-baquend-challenge" />
-    <SUITE FILE_PATH="coverage/sequra_baquend_challenge@merchant_test.rcov" NAME="merchant_test Coverage Results" MODIFIED="1615989892808" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="sequra-baquend-challenge" />
+    <SUITE FILE_PATH="coverage/sequra_baquend_challenge@merchant_test.rcov" NAME="merchant_test Coverage Results" MODIFIED="1615990193370" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="sequra-baquend-challenge" />
   </component>
 </project>
