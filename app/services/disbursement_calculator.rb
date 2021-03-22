@@ -1,12 +1,17 @@
 class DisbursementCalculator
   def execute(order)
-    orderAmount = (order.amount).to_i
-    if orderAmount > 300
-      return orderAmount * 0.0085
+    order_amount = (order.amount).to_i
+    ranges = {
+      'First' => 50,
+      'Second' => 300,
+    }
+    fees = {'First' => 0.0095, 'Second' => 0.0085}
+    if order_amount > ranges['Second']
+      return order_amount * fees['Second']
       end
-    if orderAmount >= 50
-      return orderAmount * 0.0095
+    if order_amount >= ranges['First']
+      return order_amount * fees['First']
     end
-    orderAmount * 0.01
+    order_amount * 0.01
   end
 end

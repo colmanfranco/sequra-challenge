@@ -81,14 +81,6 @@ class DisbursementTest < ActiveSupport::TestCase
     assert_equal ((order.amount).to_i * 0.0085), disbursedAmount, "Amounts dont match"
   end
 
-  def test_order_amount_should_be_float_type
-    order = get_test_order(1)
-    disbursementCalculator = DisbursementCalculator.new
-    disbursementCalculator.execute(order)
-
-    assert_raises TypeError
-  end
-
 
   private
 
