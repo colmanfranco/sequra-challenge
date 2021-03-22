@@ -1,7 +1,6 @@
 class DisbursementCalculator
 
   def execute(order_amount)
-    small_amount_fee = 0.01
 
     if order_amount > Range::SECOND.amount
       return order_amount * Range::SECOND.fee
@@ -11,6 +10,6 @@ class DisbursementCalculator
       return order_amount * Range::FIRST.fee
     end
 
-    order_amount * small_amount_fee
+    order_amount * Range::INFERIOR.fee
   end
 end
