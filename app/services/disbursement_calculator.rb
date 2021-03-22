@@ -1,11 +1,12 @@
 class DisbursementCalculator
   def execute(order)
-    if (order.amount).to_i > 300
-      return (order.amount).to_i * 0.0085
+    orderAmount = (order.amount).to_i
+    if orderAmount > 300
+      return orderAmount * 0.0085
       end
-    if (order.amount).to_i >= 50
-      return (order.amount).to_i * 0.0095
+    if orderAmount >= 50
+      return orderAmount * 0.0095
     end
-    return (order.amount).to_i * 0.01
+    return orderAmount * 0.01
   end
 end
