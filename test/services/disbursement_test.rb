@@ -33,7 +33,7 @@ class DisbursementTest < ActiveSupport::TestCase
     assert_equal ((order.amount).to_i * 0.01), disbursedAmount, "Amounts dont match"
     end
 
-  def test_disbursed_amount_should_be_one_percent_of_fifty
+  def test_disbursed_amount_should_be_zero_ninety_five_percent_of_fifty
     order = get_test_order(50)
     disbursementCalculator = DisbursementCalculator.new
     disbursedAmount = disbursementCalculator.execute(order)
