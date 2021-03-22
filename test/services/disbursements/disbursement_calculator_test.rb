@@ -1,6 +1,8 @@
 require "test_helper"
+require "disbursements/disbursement_calculator"
+require "disbursements/ranges"
 
-class DisbursementTest < ActiveSupport::TestCase
+class DisbursementCalculatorTest < ActiveSupport::TestCase
   def test_disbursed_amount_should_be_zero
     order = get_test_order(0)
     disbursementCalculator = DisbursementCalculator.new
