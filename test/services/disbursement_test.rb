@@ -48,7 +48,7 @@ class DisbursementTest < ActiveSupport::TestCase
     order = Order.new
     order.merchant_id = 25
     order.shopper_id = 3351
-    order.amount = amount * 100
+    order.amount = amount
     order.completed_at = "01/07/2017 14:24:01"
     order
   end
