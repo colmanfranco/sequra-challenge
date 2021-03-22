@@ -1,4 +1,4 @@
-class Ranges
+class Range
   attr_accessor :amount, :fee
   def initialize(amount, fee)
     @amount = amount
