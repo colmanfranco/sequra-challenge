@@ -1,10 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="aa11b343-eabe-4b9e-b375-d01bcf01862c" name="Default Changelist" comment="[GREEN] Now we cant save a new merchant without name, email or cif">
-      <change beforePath="$PROJECT_DIR$/app/services/disbursement_calculator.rb" beforeDir="false" afterPath="$PROJECT_DIR$/app/services/disbursement_calculator.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/services/disbursement_test.rb" beforeDir="false" afterPath="$PROJECT_DIR$/test/services/disbursement_test.rb" afterDir="false" />
-    </list>
+    <list default="true" id="aa11b343-eabe-4b9e-b375-d01bcf01862c" name="Default Changelist" comment="[GREEN] Now we cant save a new merchant without name, email or cif" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -337,7 +334,7 @@
       <workItem from="1615902541304" duration="4966000" />
       <workItem from="1615993164907" duration="5250000" />
       <workItem from="1616194769897" duration="51000" />
-      <workItem from="1616195736843" duration="4435000" />
+      <workItem from="1616195736843" duration="4737000" />
     </task>
     <task id="LOCAL-00001" summary="Created Order, Shopper and Merchant models with their respective migrations and test file.">
       <created>1615985094459</created>
@@ -437,7 +434,42 @@
       <option name="project" value="LOCAL" />
       <updated>1616428018993</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="[GREEN] Adding use case for disbursed amount equals 50 changing fee amount">
+      <created>1616428238701</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1616428238701</updated>
+    </task>
+    <task id="LOCAL-00016" summary="[RED] Adding use case for disbursed amount equals 100 changing fee amount">
+      <created>1616428323633</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1616428323633</updated>
+    </task>
+    <task id="LOCAL-00017" summary="[GREEN] Adding use case for disbursed amount equals 100 changing fee amount">
+      <created>1616428348909</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1616428348909</updated>
+    </task>
+    <task id="LOCAL-00018" summary="[GREEN] Adding use case for disbursed amount equals 200 changing fee amount">
+      <created>1616428431061</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1616428431061</updated>
+    </task>
+    <task id="LOCAL-00019" summary="[GREEN] Adding use case for disbursed amount equals 300 changing fee amount">
+      <created>1616428499107</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1616428499107</updated>
+    </task>
+    <option name="localTasksCounter" value="20" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -468,7 +500,12 @@
     <MESSAGE value="[GREEN] Adding use case for disbursed amount equals twenty" />
     <MESSAGE value="[GREEN] Adding use case for disbursed amount equals 49" />
     <MESSAGE value="[RED] Adding use case for disbursed amount equals 50 and corrected the fee amount for amounts under 50" />
-    <option name="LAST_COMMIT_MESSAGE" value="[RED] Adding use case for disbursed amount equals 50 and corrected the fee amount for amounts under 50" />
+    <MESSAGE value="[GREEN] Adding use case for disbursed amount equals 50 changing fee amount" />
+    <MESSAGE value="[RED] Adding use case for disbursed amount equals 100 changing fee amount" />
+    <MESSAGE value="[GREEN] Adding use case for disbursed amount equals 100 changing fee amount" />
+    <MESSAGE value="[GREEN] Adding use case for disbursed amount equals 200 changing fee amount" />
+    <MESSAGE value="[GREEN] Adding use case for disbursed amount equals 300 changing fee amount" />
+    <option name="LAST_COMMIT_MESSAGE" value="[GREEN] Adding use case for disbursed amount equals 300 changing fee amount" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/sequra_baquend_challenge@All_tests_in_test__sequra_baquend_challenge.rcov" NAME="All tests in test: sequra-baquend-challenge Coverage Results" MODIFIED="1616011183220" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="sequra-baquend-challenge" />
@@ -476,7 +513,7 @@
     <SUITE FILE_PATH="coverage/sequra_baquend_challenge@shopper_test.rcov" NAME="shopper_test Coverage Results" MODIFIED="1616002606867" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="sequra-baquend-challenge" />
     <SUITE FILE_PATH="coverage/sequra_baquend_challenge@test_should_not_save_disbur___.rcov" NAME="test_should_not_save_disbur... Coverage Results" MODIFIED="1616081696467" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="sequra-baquend-challenge" />
     <SUITE FILE_PATH="coverage/sequra_baquend_challenge@test_disbursed_amount_shoul_____1_.rcov" NAME="test_disbursed_amount_shoul... (1) Coverage Results" MODIFIED="1616428144944" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="sequra-baquend-challenge" />
-    <SUITE FILE_PATH="coverage/sequra_baquend_challenge@disbursement_test.rcov" NAME="disbursement_test Coverage Results" MODIFIED="1616428169503" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="sequra-baquend-challenge" />
+    <SUITE FILE_PATH="coverage/sequra_baquend_challenge@disbursement_test.rcov" NAME="disbursement_test Coverage Results" MODIFIED="1616428487954" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="sequra-baquend-challenge" />
     <SUITE FILE_PATH="coverage/sequra_baquend_challenge@test_disbursed_amount_shoul___.rcov" NAME="test_disbursed_amount_shoul... Coverage Results" MODIFIED="1616426987894" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="sequra-baquend-challenge" />
     <SUITE FILE_PATH="coverage/sequra_baquend_challenge@order_test.rcov" NAME="order_test Coverage Results" MODIFIED="1616002455052" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="sequra-baquend-challenge" />
     <SUITE FILE_PATH="coverage/sequra_baquend_challenge@merchant_test.rcov" NAME="merchant_test Coverage Results" MODIFIED="1615990193370" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="sequra-baquend-challenge" />
