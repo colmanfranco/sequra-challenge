@@ -7,6 +7,6 @@ class DisbursementCalculator
     if orderAmount >= 50
       return orderAmount * 0.0095
     end
-    return orderAmount * 0.01
+    orderAmount * 0.01
   end
 end

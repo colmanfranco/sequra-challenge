@@ -3,6 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="aa11b343-eabe-4b9e-b375-d01bcf01862c" name="Default Changelist" comment="[GREEN] Now we cant save a new merchant without name, email or cif">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/services/disbursement_calculator.rb" beforeDir="false" afterPath="$PROJECT_DIR$/app/services/disbursement_calculator.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/services/disbursement_test.rb" beforeDir="false" afterPath="$PROJECT_DIR$/test/services/disbursement_test.rb" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -336,7 +338,7 @@
       <workItem from="1615902541304" duration="4966000" />
       <workItem from="1615993164907" duration="5250000" />
       <workItem from="1616194769897" duration="51000" />
-      <workItem from="1616195736843" duration="5521000" />
+      <workItem from="1616195736843" duration="6329000" />
     </task>
     <task id="LOCAL-00001" summary="Created Order, Shopper and Merchant models with their respective migrations and test file.">
       <created>1615985094459</created>
@@ -485,7 +487,21 @@
       <option name="project" value="LOCAL" />
       <updated>1616428685808</updated>
     </task>
-    <option name="localTasksCounter" value="22" />
+    <task id="LOCAL-00022" summary="[GREEN] Adding use case for disbursed amount equals 313 changing fee amount to 0.85% of the amount">
+      <created>1616430378893</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1616430378893</updated>
+    </task>
+    <task id="LOCAL-00023" summary="[GREEN] Refactor repetition of (order.amount).to_i">
+      <created>1616430633647</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1616430633647</updated>
+    </task>
+    <option name="localTasksCounter" value="24" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -523,7 +539,9 @@
     <MESSAGE value="[GREEN] Adding use case for disbursed amount equals 300 changing fee amount" />
     <MESSAGE value="[RED] Adding use case for disbursed amount equals 301 changing fee amount to 0.85% of the amount" />
     <MESSAGE value="[GREEN] Adding use case for disbursed amount equals 301 changing fee amount to 0.85% of the amount" />
-    <option name="LAST_COMMIT_MESSAGE" value="[GREEN] Adding use case for disbursed amount equals 301 changing fee amount to 0.85% of the amount" />
+    <MESSAGE value="[GREEN] Adding use case for disbursed amount equals 313 changing fee amount to 0.85% of the amount" />
+    <MESSAGE value="[GREEN] Refactor repetition of (order.amount).to_i" />
+    <option name="LAST_COMMIT_MESSAGE" value="[GREEN] Refactor repetition of (order.amount).to_i" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/sequra_baquend_challenge@All_tests_in_test__sequra_baquend_challenge.rcov" NAME="All tests in test: sequra-baquend-challenge Coverage Results" MODIFIED="1616011183220" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="sequra-baquend-challenge" />
@@ -531,7 +549,7 @@
     <SUITE FILE_PATH="coverage/sequra_baquend_challenge@shopper_test.rcov" NAME="shopper_test Coverage Results" MODIFIED="1616002606867" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="sequra-baquend-challenge" />
     <SUITE FILE_PATH="coverage/sequra_baquend_challenge@test_should_not_save_disbur___.rcov" NAME="test_should_not_save_disbur... Coverage Results" MODIFIED="1616081696467" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="sequra-baquend-challenge" />
     <SUITE FILE_PATH="coverage/sequra_baquend_challenge@test_disbursed_amount_shoul_____1_.rcov" NAME="test_disbursed_amount_shoul... (1) Coverage Results" MODIFIED="1616428144944" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="sequra-baquend-challenge" />
-    <SUITE FILE_PATH="coverage/sequra_baquend_challenge@disbursement_test.rcov" NAME="disbursement_test Coverage Results" MODIFIED="1616428674187" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="sequra-baquend-challenge" />
+    <SUITE FILE_PATH="coverage/sequra_baquend_challenge@disbursement_test.rcov" NAME="disbursement_test Coverage Results" MODIFIED="1616430770145" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="sequra-baquend-challenge" />
     <SUITE FILE_PATH="coverage/sequra_baquend_challenge@test_disbursed_amount_shoul___.rcov" NAME="test_disbursed_amount_shoul... Coverage Results" MODIFIED="1616426987894" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="sequra-baquend-challenge" />
     <SUITE FILE_PATH="coverage/sequra_baquend_challenge@order_test.rcov" NAME="order_test Coverage Results" MODIFIED="1616002455052" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="sequra-baquend-challenge" />
     <SUITE FILE_PATH="coverage/sequra_baquend_challenge@merchant_test.rcov" NAME="merchant_test Coverage Results" MODIFIED="1615990193370" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="sequra-baquend-challenge" />
