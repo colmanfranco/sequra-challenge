@@ -1,9 +1,9 @@
 class CreateOrders < ActiveRecord::Migration[6.1]
   def change
     create_table :orders do |t|
-      t.string :merchant_id
-      t.string :shopper_id
-      t.string :amount
+      t.integer :merchant_id
+      t.integer :shopper_id
+      t.float :amount
       t.string :completed_at
 
       t.timestamps

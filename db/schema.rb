@@ -21,9 +21,9 @@ ActiveRecord::Schema.define(version: 2021_03_17_124211) do
   end
 
   create_table "orders", force: :cascade do |t|
-    t.string "merchant_id"
-    t.string "shopper_id"
-    t.string "amount"
+    t.integer "merchant_id"
+    t.integer "shopper_id"
+    t.float "amount"
     t.string "completed_at"
     t.datetime "created_at", precision: 6, null: false
     t.datetime "updated_at", precision: 6, null: false
