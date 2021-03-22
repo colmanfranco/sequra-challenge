@@ -1,4 +1,5 @@
 class DisbursementCalculator
-  def execute()
+  def execute(order)
+    return 0
   end
 end
