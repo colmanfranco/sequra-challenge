@@ -1,7 +1,8 @@
 require "test_helper"
 
 class DisbursementControllerTest < ActionDispatch::IntegrationTest
-  # test "the truth" do
-  #   assert true
-  # end
+  def test_should_get_disbursement_index
+    get "/api/disbursement"
+    assert_response :success
+  end
 end
