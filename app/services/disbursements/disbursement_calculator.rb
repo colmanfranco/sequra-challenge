@@ -1,7 +1,6 @@
 class DisbursementCalculator
 
   def execute(order_amount)
-
     if order_amount > Range::SECOND.amount
       return order_amount * Range::SECOND.fee
     end

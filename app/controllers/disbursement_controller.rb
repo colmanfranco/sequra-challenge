@@ -1,0 +1,2 @@
+class DisbursementController < ApplicationController
+end
