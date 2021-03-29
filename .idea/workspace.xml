@@ -1,10 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="aa11b343-eabe-4b9e-b375-d01bcf01862c" name="Default Changelist" comment="[GREEN] Now we cant save a new merchant without name, email or cif">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-    </list>
+    <list default="true" id="aa11b343-eabe-4b9e-b375-d01bcf01862c" name="Default Changelist" comment="[GREEN] Now we cant save a new merchant without name, email or cif" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -446,7 +443,7 @@
       <workItem from="1615902541304" duration="4966000" />
       <workItem from="1615993164907" duration="5250000" />
       <workItem from="1616194769897" duration="51000" />
-      <workItem from="1616195736843" duration="39510000" />
+      <workItem from="1616195736843" duration="39841000" />
     </task>
     <task id="LOCAL-00001" summary="Created Order, Shopper and Merchant models with their respective migrations and test file.">
       <created>1615985094459</created>
@@ -756,7 +753,14 @@
       <option name="project" value="LOCAL" />
       <updated>1617047691904</updated>
     </task>
-    <option name="localTasksCounter" value="45" />
+    <task id="LOCAL-00045" summary="[ADD] Added README.md to explain project, setup, endpoints, etc.">
+      <created>1617052291666</created>
+      <option name="number" value="00045" />
+      <option name="presentableId" value="LOCAL-00045" />
+      <option name="project" value="LOCAL" />
+      <updated>1617052291666</updated>
+    </task>
+    <option name="localTasksCounter" value="46" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -775,7 +779,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="[GREEN] Adding use case for disbursed amount equals 49" />
     <MESSAGE value="[RED] Adding use case for disbursed amount equals 50 and corrected the fee amount for amounts under 50" />
     <MESSAGE value="[GREEN] Adding use case for disbursed amount equals 50 changing fee amount" />
     <MESSAGE value="[RED] Adding use case for disbursed amount equals 100 changing fee amount" />
@@ -800,7 +803,8 @@
     <MESSAGE value="[RED] testing API endpoint to get all disbursements for specific merchant_id" />
     <MESSAGE value="[GREEN] testing API endpoint to get all disbursements for specific merchant_id" />
     <MESSAGE value="[ADD] Added job to calculate disbursements and save them in db. Also added data for orders, merchants and shoppers as json to populate database." />
-    <option name="LAST_COMMIT_MESSAGE" value="[ADD] Added job to calculate disbursements and save them in db. Also added data for orders, merchants and shoppers as json to populate database." />
+    <MESSAGE value="[ADD] Added README.md to explain project, setup, endpoints, etc." />
+    <option name="LAST_COMMIT_MESSAGE" value="[ADD] Added README.md to explain project, setup, endpoints, etc." />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/sequra_baquend_challenge@disbursement_test__1_.rcov" NAME="disbursement_test (1) Coverage Results" MODIFIED="1616506600289" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="sequra-baquend-challenge" />

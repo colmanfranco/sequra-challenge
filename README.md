@@ -3,6 +3,7 @@
 This is the coding challenge for people who applied to a backend developer position at SeQura. 
 It's been designed to be a simplified version of the same problems we deal with.
 
+
 ## Setup
 
 To initialize the project just clone the repo.
@@ -24,6 +25,7 @@ rails s
 ```
 Now you should be ready to test the project.
 
+
 ##API Endpoints
 
 There are only two available API endpoints at the moment.
@@ -37,6 +39,7 @@ In this case the *base_url* would be your localhost.
 {base_url} /api/v1/disbursement
 ```
 In case you do not provide a ***merchant_id***, you will get all the disbursements for all merchants.
+
 
 ##Project
 
@@ -54,6 +57,7 @@ I want to highlight some of the decisions I made regarding the structure of the 
 
 - I was not able to connect the job to execute  every day at certain time.
 - I wanted to populate all the tables but decided not to because it was taking me too much time.
+
 
 ##Credits
 
