@@ -22,6 +22,6 @@ class DisbursementControllerTest < ActionDispatch::IntegrationTest
     disbursement = Disbursement.new
     disbursement.merchant_id = 5
     disbursement.amount = 650.13
-    disbursement.save
+    disbursement
   end
 end
