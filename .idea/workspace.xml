@@ -2,12 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="aa11b343-eabe-4b9e-b375-d01bcf01862c" name="Default Changelist" comment="[GREEN] Now we cant save a new merchant without name, email or cif">
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/controllers/disbursement_controller.rb" beforeDir="false" afterPath="$PROJECT_DIR$/app/controllers/disbursement_controller.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/models/order.rb" beforeDir="false" afterPath="$PROJECT_DIR$/app/models/order.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/db/seeds.rb" beforeDir="false" afterPath="$PROJECT_DIR$/db/seeds.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -450,7 +446,7 @@
       <workItem from="1615902541304" duration="4966000" />
       <workItem from="1615993164907" duration="5250000" />
       <workItem from="1616194769897" duration="51000" />
-      <workItem from="1616195736843" duration="35483000" />
+      <workItem from="1616195736843" duration="39510000" />
     </task>
     <task id="LOCAL-00001" summary="Created Order, Shopper and Merchant models with their respective migrations and test file.">
       <created>1615985094459</created>
@@ -746,7 +742,21 @@
       <option name="project" value="LOCAL" />
       <updated>1617019596763</updated>
     </task>
-    <option name="localTasksCounter" value="43" />
+    <task id="LOCAL-00043" summary="[ADD] Added job to calculate disbursements and save them in db. Also added data for orders, merchants and shoppers as json to populate database.">
+      <created>1617047681329</created>
+      <option name="number" value="00043" />
+      <option name="presentableId" value="LOCAL-00043" />
+      <option name="project" value="LOCAL" />
+      <updated>1617047681329</updated>
+    </task>
+    <task id="LOCAL-00044" summary="[ADD] Added job to calculate disbursements and save them in db. Also added data for orders, merchants and shoppers as json to populate database.">
+      <created>1617047691904</created>
+      <option name="number" value="00044" />
+      <option name="presentableId" value="LOCAL-00044" />
+      <option name="project" value="LOCAL" />
+      <updated>1617047691904</updated>
+    </task>
+    <option name="localTasksCounter" value="45" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -765,7 +775,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="[GREEN] Adding use case for disbursed amount equals twenty" />
     <MESSAGE value="[GREEN] Adding use case for disbursed amount equals 49" />
     <MESSAGE value="[RED] Adding use case for disbursed amount equals 50 and corrected the fee amount for amounts under 50" />
     <MESSAGE value="[GREEN] Adding use case for disbursed amount equals 50 changing fee amount" />
@@ -790,7 +799,8 @@
     <MESSAGE value="[GREEN] testing API endpoint to get all disbursements for all companies when no id is provided." />
     <MESSAGE value="[RED] testing API endpoint to get all disbursements for specific merchant_id" />
     <MESSAGE value="[GREEN] testing API endpoint to get all disbursements for specific merchant_id" />
-    <option name="LAST_COMMIT_MESSAGE" value="[GREEN] testing API endpoint to get all disbursements for specific merchant_id" />
+    <MESSAGE value="[ADD] Added job to calculate disbursements and save them in db. Also added data for orders, merchants and shoppers as json to populate database." />
+    <option name="LAST_COMMIT_MESSAGE" value="[ADD] Added job to calculate disbursements and save them in db. Also added data for orders, merchants and shoppers as json to populate database." />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/sequra_baquend_challenge@disbursement_test__1_.rcov" NAME="disbursement_test (1) Coverage Results" MODIFIED="1616506600289" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="sequra-baquend-challenge" />
