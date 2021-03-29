@@ -24,7 +24,7 @@ rails s
 ```
 Now you should be ready to test the project.
 
-##API Endpoints
+## API Endpoints
 
 There are only two available API endpoints at the moment.
 The first one is when provided a ***merchant_id***, you will see the disbursements for desired merchant.
@@ -38,7 +38,7 @@ In this case the *base_url* would be your localhost.
 ```
 In case you do not provide a ***merchant_id***, you will get all the disbursements for all merchants.
 
-##Project
+## Project
 
 I want to highlight some of the decisions I made regarding the structure of the challenge and also the missing parts.
 
@@ -49,11 +49,11 @@ I want to highlight some of the decisions I made regarding the structure of the 
 - Created a service (DisbursementCalculator) to separate the calculations responsibility.
 - Created a job (CalculateDisbursementJob) to execute every day at certain time so it calculates disbursements on the background.
 
-###Missing
+### Missing
 
 - I was not able to connect the job to execute  every day at certain time.
 - I wanted to populate all the tables but decided not to because it was taking me too much time.
 
-##Credits
+## Credits
 
 Proper credits to the SeQura development team, thank you for the challenge and the opportunity. 
