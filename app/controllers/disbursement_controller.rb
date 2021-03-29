@@ -1,5 +1,6 @@
 class DisbursementController < ApplicationController
   def index
+    CalculateDisbursementsJob.perform_now
     @disbursements = Disbursement.all
     render json: @disbursements
   end

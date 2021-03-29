@@ -2,8 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="aa11b343-eabe-4b9e-b375-d01bcf01862c" name="Default Changelist" comment="[GREEN] Now we cant save a new merchant without name, email or cif">
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/controllers/disbursement_controller_test.rb" beforeDir="false" afterPath="$PROJECT_DIR$/test/controllers/disbursement_controller_test.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/controllers/disbursement_controller.rb" beforeDir="false" afterPath="$PROJECT_DIR$/app/controllers/disbursement_controller.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/models/order.rb" beforeDir="false" afterPath="$PROJECT_DIR$/app/models/order.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/db/seeds.rb" beforeDir="false" afterPath="$PROJECT_DIR$/db/seeds.rb" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -71,7 +75,7 @@
       <recent name="$PROJECT_DIR$/app/services" />
     </key>
   </component>
-  <component name="RunManager" selected="Test::Unit/Shoulda/Minitest.disbursement_controller_test">
+  <component name="RunManager" selected="Test::Unit/Shoulda/Minitest.test_calculate_disbursement...">
     <configuration name="Development: sequra-baquend-challenge" type="RailsRunConfigurationType" factoryName="Rails">
       <module name="sequra-baquend-challenge" />
       <predefined_log_file enabled="true" id="RUBY_RAILS_SERVER" />
@@ -235,7 +239,7 @@
       <RTEST_RUN_CONFIG_SETTINGS_ID NAME="RUNNER_OPTIONS" VALUE="" />
       <method v="2" />
     </configuration>
-    <configuration name="All tests in test: sequra-baquend-challenge" type="TestUnitRunConfigurationType" factoryName="Test::Unit/Shoulda/Minitest" temporary="true">
+    <configuration name="calculate_disbursements_job..." type="TestUnitRunConfigurationType" factoryName="Test::Unit/Shoulda/Minitest" temporary="true" nameIsGenerated="true">
       <module name="sequra-baquend-challenge" />
       <predefined_log_file enabled="true" id="RUBY_TESTUNIT" />
       <RTEST_RUN_CONFIG_SETTINGS_ID NAME="RUBY_ARGS" VALUE="-Itest" />
@@ -255,11 +259,11 @@
         </COVERAGE_PATTERN>
       </EXTENSION>
       <EXTENSION ID="org.jetbrains.plugins.ruby.rails.run.RailsRunConfigurationExtension" SCRATCH_USE_RAILS_RUNNER="false" />
-      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="TESTS_FOLDER_PATH" VALUE="$MODULE_DIR$/test" />
-      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="TEST_SCRIPT_PATH" VALUE="" />
-      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="TEST_FILE_MASK" VALUE="**/{*_test,test_*,*_spec}.rb" />
+      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="TESTS_FOLDER_PATH" VALUE="" />
+      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="TEST_SCRIPT_PATH" VALUE="$MODULE_DIR$/test/jobs/calculate_disbursements_job_test.rb" />
+      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="TEST_FILE_MASK" VALUE="" />
       <RTEST_RUN_CONFIG_SETTINGS_ID NAME="TEST_METHOD_NAME" VALUE="" />
-      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="TEST_TEST_TYPE" VALUE="ALL_IN_FOLDER" />
+      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="TEST_TEST_TYPE" VALUE="TEST_SCRIPT" />
       <RTEST_RUN_CONFIG_SETTINGS_ID NAME="DRB" VALUE="false" />
       <RTEST_RUN_CONFIG_SETTINGS_ID NAME="ZEUS" VALUE="false" />
       <RTEST_RUN_CONFIG_SETTINGS_ID NAME="SPRING" VALUE="false" />
@@ -359,7 +363,7 @@
       <RTEST_RUN_CONFIG_SETTINGS_ID NAME="RUNNER_OPTIONS" VALUE="" />
       <method v="2" />
     </configuration>
-    <configuration name="test_disbursed_amount_shoul..." type="TestUnitRunConfigurationType" factoryName="Test::Unit/Shoulda/Minitest" temporary="true" nameIsGenerated="true">
+    <configuration name="test_calculate_disbursement..." type="TestUnitRunConfigurationType" factoryName="Test::Unit/Shoulda/Minitest" temporary="true" nameIsGenerated="true">
       <module name="sequra-baquend-challenge" />
       <predefined_log_file enabled="true" id="RUBY_TESTUNIT" />
       <RTEST_RUN_CONFIG_SETTINGS_ID NAME="RUBY_ARGS" VALUE="-Itest" />
@@ -380,9 +384,9 @@
       </EXTENSION>
       <EXTENSION ID="org.jetbrains.plugins.ruby.rails.run.RailsRunConfigurationExtension" SCRATCH_USE_RAILS_RUNNER="false" />
       <RTEST_RUN_CONFIG_SETTINGS_ID NAME="TESTS_FOLDER_PATH" VALUE="" />
-      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="TEST_SCRIPT_PATH" VALUE="$MODULE_DIR$/test/services/disbursements/disbursement_calculator_test.rb" />
+      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="TEST_SCRIPT_PATH" VALUE="$MODULE_DIR$/test/jobs/calculate_disbursements_job_test.rb" />
       <RTEST_RUN_CONFIG_SETTINGS_ID NAME="TEST_FILE_MASK" VALUE="" />
-      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="TEST_METHOD_NAME" VALUE="^test_disbursed_amount_should_be_zero$" />
+      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="TEST_METHOD_NAME" VALUE="^test_calculate_disbursements_job_executes$" />
       <RTEST_RUN_CONFIG_SETTINGS_ID NAME="TEST_TEST_TYPE" VALUE="TEST_METHOD" />
       <RTEST_RUN_CONFIG_SETTINGS_ID NAME="DRB" VALUE="false" />
       <RTEST_RUN_CONFIG_SETTINGS_ID NAME="ZEUS" VALUE="false" />
@@ -423,11 +427,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Test::Unit/Shoulda/Minitest.test_calculate_disbursement..." />
+        <item itemvalue="Test::Unit/Shoulda/Minitest.calculate_disbursements_job..." />
         <item itemvalue="Test::Unit/Shoulda/Minitest.disbursement_controller_test" />
         <item itemvalue="Test::Unit/Shoulda/Minitest.disbursement_test (1)" />
         <item itemvalue="Test::Unit/Shoulda/Minitest.disbursement_calculator_test" />
-        <item itemvalue="Test::Unit/Shoulda/Minitest.test_disbursed_amount_shoul..." />
-        <item itemvalue="Test::Unit/Shoulda/Minitest.All tests in test: sequra-baquend-challenge" />
       </list>
     </recent_temporary>
   </component>
@@ -446,7 +450,7 @@
       <workItem from="1615902541304" duration="4966000" />
       <workItem from="1615993164907" duration="5250000" />
       <workItem from="1616194769897" duration="51000" />
-      <workItem from="1616195736843" duration="23725000" />
+      <workItem from="1616195736843" duration="35483000" />
     </task>
     <task id="LOCAL-00001" summary="Created Order, Shopper and Merchant models with their respective migrations and test file.">
       <created>1615985094459</created>
@@ -735,7 +739,14 @@
       <option name="project" value="LOCAL" />
       <updated>1617015071034</updated>
     </task>
-    <option name="localTasksCounter" value="42" />
+    <task id="LOCAL-00042" summary="[GREEN] testing API endpoint to get all disbursements for specific merchant_id">
+      <created>1617019596762</created>
+      <option name="number" value="00042" />
+      <option name="presentableId" value="LOCAL-00042" />
+      <option name="project" value="LOCAL" />
+      <updated>1617019596763</updated>
+    </task>
+    <option name="localTasksCounter" value="43" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -782,17 +793,19 @@
     <option name="LAST_COMMIT_MESSAGE" value="[GREEN] testing API endpoint to get all disbursements for specific merchant_id" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/sequra_baquend_challenge@All_tests_in_test__sequra_baquend_challenge.rcov" NAME="All tests in test: sequra-baquend-challenge Coverage Results" MODIFIED="1616438057473" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="sequra-baquend-challenge" />
-    <SUITE FILE_PATH="coverage/sequra_baquend_challenge@test_should_not_save_mercha___.rcov" NAME="test_should_not_save_mercha... Coverage Results" MODIFIED="1615989849767" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="sequra-baquend-challenge" />
     <SUITE FILE_PATH="coverage/sequra_baquend_challenge@disbursement_test__1_.rcov" NAME="disbursement_test (1) Coverage Results" MODIFIED="1616506600289" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="sequra-baquend-challenge" />
-    <SUITE FILE_PATH="coverage/sequra_baquend_challenge@shopper_test.rcov" NAME="shopper_test Coverage Results" MODIFIED="1616002606867" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="sequra-baquend-challenge" />
-    <SUITE FILE_PATH="coverage/sequra_baquend_challenge@disbursement_controller_test.rcov" NAME="disbursement_controller_test Coverage Results" MODIFIED="1617016117249" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="sequra-baquend-challenge" />
-    <SUITE FILE_PATH="coverage/sequra_baquend_challenge@test_should_not_save_disbur___.rcov" NAME="test_should_not_save_disbur... Coverage Results" MODIFIED="1616081696467" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="sequra-baquend-challenge" />
+    <SUITE FILE_PATH="coverage/sequra_baquend_challenge@disbursement_controller_test.rcov" NAME="disbursement_controller_test Coverage Results" MODIFIED="1617025571289" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="sequra-baquend-challenge" />
+    <SUITE FILE_PATH="coverage/sequra_baquend_challenge@test_calculate_disbursement___.rcov" NAME="test_calculate_disbursement... Coverage Results" MODIFIED="1617046354419" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="sequra-baquend-challenge" />
     <SUITE FILE_PATH="coverage/sequra_baquend_challenge@disbursement_calculator_test.rcov" NAME="disbursement_calculator_test Coverage Results" MODIFIED="1616469749713" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="sequra-baquend-challenge" />
     <SUITE FILE_PATH="coverage/sequra_baquend_challenge@test_disbursed_amount_shoul_____1_.rcov" NAME="test_disbursed_amount_shoul... (1) Coverage Results" MODIFIED="1616428144944" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="sequra-baquend-challenge" />
     <SUITE FILE_PATH="coverage/sequra_baquend_challenge@disbursement_test.rcov" NAME="disbursement_test Coverage Results" MODIFIED="1616437925929" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="sequra-baquend-challenge" />
     <SUITE FILE_PATH="coverage/sequra_baquend_challenge@test_disbursed_amount_shoul___.rcov" NAME="test_disbursed_amount_shoul... Coverage Results" MODIFIED="1616438543711" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="sequra-baquend-challenge" />
     <SUITE FILE_PATH="coverage/sequra_baquend_challenge@order_test.rcov" NAME="order_test Coverage Results" MODIFIED="1616002455052" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="sequra-baquend-challenge" />
     <SUITE FILE_PATH="coverage/sequra_baquend_challenge@merchant_test.rcov" NAME="merchant_test Coverage Results" MODIFIED="1615990193370" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="sequra-baquend-challenge" />
+    <SUITE FILE_PATH="coverage/sequra_baquend_challenge@All_tests_in_test__sequra_baquend_challenge.rcov" NAME="All tests in test: sequra-baquend-challenge Coverage Results" MODIFIED="1616438057473" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="sequra-baquend-challenge" />
+    <SUITE FILE_PATH="coverage/sequra_baquend_challenge@test_should_not_save_mercha___.rcov" NAME="test_should_not_save_mercha... Coverage Results" MODIFIED="1615989849767" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="sequra-baquend-challenge" />
+    <SUITE FILE_PATH="coverage/sequra_baquend_challenge@shopper_test.rcov" NAME="shopper_test Coverage Results" MODIFIED="1616002606867" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="sequra-baquend-challenge" />
+    <SUITE FILE_PATH="coverage/sequra_baquend_challenge@test_should_not_save_disbur___.rcov" NAME="test_should_not_save_disbur... Coverage Results" MODIFIED="1616081696467" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="sequra-baquend-challenge" />
+    <SUITE FILE_PATH="coverage/sequra_baquend_challenge@calculate_disbursements_job___.rcov" NAME="calculate_disbursements_job... Coverage Results" MODIFIED="1617044261902" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="sequra-baquend-challenge" />
   </component>
 </project>
