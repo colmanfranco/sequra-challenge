@@ -13,6 +13,8 @@
 ActiveRecord::Schema.define(version: 2021_03_22_214204) do
 
   create_table "disbursements", force: :cascade do |t|
+    t.string "merchant_id"
+    t.float "amount"
     t.datetime "created_at", precision: 6, null: false
     t.datetime "updated_at", precision: 6, null: false
   end
