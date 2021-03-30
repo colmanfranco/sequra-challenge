@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="aa11b343-eabe-4b9e-b375-d01bcf01862c" name="Default Changelist" comment="[GREEN] Now we cant save a new merchant without name, email or cif" />
+    <list default="true" id="aa11b343-eabe-4b9e-b375-d01bcf01862c" name="Default Changelist" comment="[GREEN] Now we cant save a new merchant without name, email or cif">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -443,7 +446,7 @@
       <workItem from="1615902541304" duration="4966000" />
       <workItem from="1615993164907" duration="5250000" />
       <workItem from="1616194769897" duration="51000" />
-      <workItem from="1616195736843" duration="39841000" />
+      <workItem from="1616195736843" duration="41324000" />
     </task>
     <task id="LOCAL-00001" summary="Created Order, Shopper and Merchant models with their respective migrations and test file.">
       <created>1615985094459</created>
@@ -760,7 +763,28 @@
       <option name="project" value="LOCAL" />
       <updated>1617052291666</updated>
     </task>
-    <option name="localTasksCounter" value="46" />
+    <task id="LOCAL-00046" summary="[ADD] Added README.md to explain project, setup, endpoints, etc.">
+      <created>1617052621906</created>
+      <option name="number" value="00046" />
+      <option name="presentableId" value="LOCAL-00046" />
+      <option name="project" value="LOCAL" />
+      <updated>1617052621906</updated>
+    </task>
+    <task id="LOCAL-00047" summary="[ADD] Added README.md to explain project, setup, endpoints, etc.">
+      <created>1617052826346</created>
+      <option name="number" value="00047" />
+      <option name="presentableId" value="LOCAL-00047" />
+      <option name="project" value="LOCAL" />
+      <updated>1617052826346</updated>
+    </task>
+    <task id="LOCAL-00048" summary="[ADD] Added README.md to explain project, setup, endpoints, etc.">
+      <created>1617052914400</created>
+      <option name="number" value="00048" />
+      <option name="presentableId" value="LOCAL-00048" />
+      <option name="project" value="LOCAL" />
+      <updated>1617052914400</updated>
+    </task>
+    <option name="localTasksCounter" value="49" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

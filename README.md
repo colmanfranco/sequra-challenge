@@ -51,8 +51,20 @@ I want to highlight some of the decisions I made regarding the structure of the 
 
 ### Missing
 
-- I was not able to connect the job to execute  every day at certain time.
+- I was not able to connect the job to execute  every day at certain time. I wanted it to be executed every day at 5am so when the day starts we had the disbursements available.
 - I wanted to populate all the tables but decided not to because it was taking me too much time.
+
+### Tests
+
+We can ran all tests with the command
+```
+bin/rails test
+```
+or by passing the *bin/rails test* command the filename containing the test cases. Example:
+```
+bin/rails test tests/models/example_test.rb
+```
+
 
 ## Credits
 
